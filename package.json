@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@admin-bro/express": "^3.1.0",
+    "@admin-bro/mongoose": "^1.1.0",
+    "admin-bro": "^4.0.1",
+    "admin-bro-theme-dark": "^1.0.0",
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-formidable": "^1.2.0",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.7.2",
+    "tslib": "^2.4.1"
+  },
+  "name": "imagi-admin",
+  "version": "1.0.0",
+  "description": "it's the admin panel of imagiweb.tech blog site",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "imagiWeb"
+  ],
+  "author": "Isab Sk",
+  "license": "ISC"
+}
