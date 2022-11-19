@@ -4,6 +4,10 @@ const AdminBroMongoose = require('@admin-bro/mongoose')
 const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
 const theme = require('admin-bro-theme-dark')
+var http = require("http");
+setInterval(function() {
+    http.get("https://imagiweb-admin.onrender.com/");
+}, 300000); // every 5 minutes (300000)
 
 require('dotenv').config()
 
